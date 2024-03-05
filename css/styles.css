@@ -624,6 +624,7 @@ img {
 }
 
 .modal-field-coment {
+  margin-bottom: 16px;
 }
 .modal-input-wrap {
   position: relative;
@@ -759,13 +760,18 @@ img {
   letter-spacing: 0.64px;
   cursor: pointer;
   border: none;
-  color: #4d5ae5;
+  color: #ffffff
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.acept {
+  color: #4d5ae5;
+}
+
 .privacy {
+  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+  
 }
