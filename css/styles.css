@@ -703,8 +703,7 @@ img {
   font-size: 12px;
   font-weight: -0.02em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
+
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
